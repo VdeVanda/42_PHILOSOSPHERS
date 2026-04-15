@@ -1,8 +1,14 @@
 *This project has been created as part of the 42 curriculum by vabatist.*
 
 ---
-
-# Philosophers
+```text
+██████╗ ██╗  ██╗██╗██╗      ██████╗ ███████╗ ██████╗ ██████╗ ██╗  ██╗███████╗██████╗ ███████╗
+██╔══██╗██║  ██║██║██║     ██╔═══██╗██╔════╝██╔═══██╗██╔══██╗██║  ██║██╔════╝██╔══██╗██╔════╝
+██████╔╝███████║██║██║     ██║   ██║███████╗██║   ██║██████╔╝███████║█████╗  ██████╔╝███████╗
+██╔═══╝ ██╔══██║██║██║     ██║   ██║╚════██║██║   ██║██╔═══╝ ██╔══██║██╔══╝  ██╔══██╗╚════██║
+██║     ██║  ██║██║███████╗╚██████╔╝███████║╚██████╔╝██║     ██║  ██║███████╗██║  ██║███████║
+╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+```
 
 An implementation of the Dining Philosophers problem in C using POSIX threads (`pthread`) and mutexes. The program simulates philosophers who cycle through thinking, eating, and sleeping while safely sharing forks to avoid deadlocks and race conditions. A monitor thread supervises the simulation to detect philosopher death or completion when an optional "must eat" count is provided.
 
